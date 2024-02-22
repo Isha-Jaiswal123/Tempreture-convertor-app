@@ -1,0 +1,41 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.wrapper{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+}
+.main{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 130px;
+  width: 350px;
+  background-color: #0438f2c4;
+  border-radius: 8px;
+}
+input{
+  height:45px;
+  width: 100px;
+ border: none;
+ border-radius: 3px;
+}
+.main div{
+  padding: 15px;
+}
+h3{
+  color: white;
+}
+.equal{
+  color: white;
+  margin-top: 15px;
+}
+input::-webkit-inner-spin-button,
+ input::-webkit-outer-spin-button{
+  display: none;
+}
